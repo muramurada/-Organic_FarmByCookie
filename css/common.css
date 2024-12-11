@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.section-title-question {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(204, 181, 52);
+  position: relative;
+  margin-bottom: 10px;
+}
+.section-title-question:hover {
+  cursor: pointer;
+}
+.section-title-question::before {
+  /* 閉じている時 */
+  content: "＋";
+  position: absolute;
+  right: 20px;
+  z-index: 10;
+}
+.section-title-question.active::before {
+  /* 開いている時 */
+  content: "－";
+  z-index: 10;
+}
+.section-title-answer {
+  padding: 15px;
+  margin-bottom: 15px;
+}
