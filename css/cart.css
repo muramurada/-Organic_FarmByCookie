@@ -1,12 +1,70 @@
 @charset "utf-8";
 
+.h1-cart {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.cart-form {
+  max-width: 770px;
+  margin: 0 auto;
+  font-family: 'Courier New', Courier, monospace;
+  /* border: 1px solid red; */
+}
+
+.div-nasu, .div-tomato, .div-cucumber {
+  height: 60px;
+  /* vertical-align: middle; */
+}
+.nasu-img, .tomato-img, .cucumber-img {
+  height: 100px;
+}
 label {
   display: inline-block;
-  width: 200px;
+  width: 550px;
+  font-size: 20px;
+}
+.div-nasu::after, .div-tomato::after {
+  display: block;
+  content: "";
+  width: 770px;
+  border: 1px dotted black;
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
+}
+.total-div::before {
+  display: block;
+  content: "";
+  width: 770px;
+  border: 1px dotted black;
+  margin-bottom: 20px;
+}
+.total-div {
+  height: 70px;
+  /* margin-top: 30px; */
+  /* margin-bottom: 50px; */
+  /* vertical-align: bottom; */
 }
 input {
-  text-align: right;
+  /* text-align: right; */
+  display: inline-block;
+  margin-right: 0;
+  height: 30px;
+  border-radius: 5px;
+  /* border: 1px solid red; */
 }
+
+.purchase {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  font-size: 30px;
+  border-radius: 20px;
+  margin-top: 50px;
+  /* border: 1px solid red; */
+}
+
 #fixed {
   width: 100px;
   height: 100px;
