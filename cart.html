@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/reset.css" rel="stylesheet" media="all" />
     <link href="./css/cart.css" rel="stylesheet" media="all" />
+    <!-- icons -->
+    <link rel="icon" href="img/hero_img.png">
+    <!-- <link rel="icon" sizes="192x192" href="img/hero_img.png"> -->
     <title>Document</title>
   </head>
   <body>
@@ -44,16 +47,9 @@
       document.getElementById("num_nasu").value = num_nasu;
       document.getElementById("num_tomato").value = num_tomato;
       document.getElementById("num_cucumber").value = num_cucumber;
-      // document.write("茄子(１００円）：　" + num_nasu + "個");
-      // document.write("<br>\n");
-      // document.write("トマト(２００円）：　" + num_tomato + "個");
-      // document.write("<br>\n");
-      // document.write("キュウリ(３００円）：　" + num_cucumber + "個");
-      // document.write("<br>\n");
 
       var total = 100 * num_nasu + 200 * num_tomato + 300 * num_cucumber;
       document.getElementById("total").value = total;
-      // document.write("合計：" + total + "円");
       var eventNumNasu = document.querySelector("#num_nasu");
       var eventNumTomato = document.querySelector("#num_tomato");
       var eventNumCucumber = document.querySelector("#num_cucumber");
@@ -79,11 +75,8 @@
       //クエリ文字列から値を取り出す関数
       function getParam(name, url) {
         url = window.location.href; //URLの取得
-        //alert(url);
         name = name.replace(/[\[\]]/g, "\\$&");
-        //alert(name);
         var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
-        //alert(regex);
         var results = regex.exec(url);
         if (!results) return null;
         if (!results[2]) return "";

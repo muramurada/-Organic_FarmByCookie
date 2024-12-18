@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="icon" href="img/hero_img.png">
+    <!-- <link rel="icon" sizes="192x192" href="img/hero_img.png"> -->
     <title>Hide's Organic Farm</title>
   </head>
   <body>
@@ -277,7 +280,6 @@
           num_nasu++;
           document.getElementById("vegitable--ul--box-nasu").innerHTML =
             num_nasu;
-          // alert(num_nasu);
         });
         $(".vegitable--ul--counter-nasu--minus").click(function () {
           if (num_nasu > 0) {
@@ -285,7 +287,6 @@
           }
           document.getElementById("vegitable--ul--box-nasu").innerHTML =
             num_nasu;
-          // alert(Math.max(num_nasu,0));
         });
 
         //tomato
