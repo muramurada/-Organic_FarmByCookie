@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./css/reset.css" rel="stylesheet" media="all" />
-    <link href="./css/cart.css" rel="stylesheet" media="all" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/reset.css" rel="stylesheet" media="all">
+    <link href="./css/cart.css" rel="stylesheet" media="all">
     <!-- icons -->
     <link rel="icon" href="img/hero_img.png">
     <!-- <link rel="icon" sizes="192x192" href="img/hero_img.png"> -->
@@ -13,30 +13,30 @@
   <body>
     <h1 class="h1-cart">カート内の商品一覧</h1>
     <form class="cart-form" action="./php/cart.php" method="POST">
-        <img class="nasu-img" src="./img/nasutrim.png">
+        <img class="nasu-img" src="./img/nasutrim.png" alt="nasu">
         <div class="div-nasu">
          <label for="num_nasu">茄子(100円)　　：</label>
-         <input type="number" name="num_nasu" id="num_nasu" />個
+         <input type="number" name="num_nasu" id="num_nasu">個
         </div>
-        <img class="tomato-img" src="./img/tomato.png">
+        <img class="tomato-img" src="./img/tomato.png" alt="tomato">
         <div class="div-tomato">
           <label for="num_tomato">トマト(200円)　：</label>
-          <input type="number" name="num_tomato" id="num_tomato" />個
+          <input type="number" name="num_tomato" id="num_tomato">個
         </div>
-        <img class="cucumber-img" src="./img/cucumber.png">
+        <img class="cucumber-img" src="./img/cucumber.png" alt="cucumber">
         <div class="div-cucumber">
          <label for="num_cucumber">キュウリ(300円)：</label>
-         <input type="number" name="num_cucumber" id="num_cucumber" />個
+         <input type="number" name="num_cucumber" id="num_cucumber">個
         </div>
       <div class="total-div">
         <label for="total">合計　　　　　　：</label>
-        <input type="number" name="total" id="total" />円
+        <input type="number" name="total" id="total">円
       </div>
       <button class="purchase" type="submit">購入</button>
     </form>
     <a href="./index.html"
-      ><img id="fixed" src="./img/kkrn_icon_modoru_3.png"
-    /></a>
+      ><img id="fixed" src="./img/kkrn_icon_modoru_3.png" alt="kkrn_icon_modoru_3"
+    ></a>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
