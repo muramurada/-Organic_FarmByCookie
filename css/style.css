@@ -145,13 +145,13 @@ h3 {
   background-color: white;
 }
 
-.wrapper-vegitable {
+.wrapper-vegetable {
   background-color: rgba(102, 235, 102, 0.8);
   background-blend-mode: lighten;
   background-image: url(../img/bg-tomato.png);
   background-size: 100px 100px;
 }
-.wrapper-vegitable-container {
+.wrapper-vegetable-container {
   max-width: 1000px;
   width: 80%;
   height: auto;
@@ -160,72 +160,72 @@ h3 {
   margin-bottom: 50px;
   padding-bottom: 30px;
 }
-.vegitable--ul {
+.vegetable--ul {
   display: flex;
   justify-content: space-between;
 }
-.vegitable--ul li {
+.vegetable--ul li {
   width: 31%;
 }
-.vegitable--ul--divimg1,
-.vegitable--ul--divimg2,
-.vegitable--ul--divimg3 {
+.vegetable--ul--divimg1,
+.vegetable--ul--divimg2,
+.vegetable--ul--divimg3 {
   text-align: center;
   overflow: hidden;
 }
-.vegitable--ul--divimg1--img,
-.vegitable--ul--divimg2--img,
-.vegitable--ul--divimg3--img {
+.vegetable--ul--divimg1--img,
+.vegetable--ul--divimg2--img,
+.vegetable--ul--divimg3--img {
   transition: 1s ease-in-out;
 }
-.vegitable--ul--divimg1--img:hover,
-.vegitable--ul--divimg2--img:hover,
-.vegitable--ul--divimg3--img:hover {
+.vegetable--ul--divimg1--img:hover,
+.vegetable--ul--divimg2--img:hover,
+.vegetable--ul--divimg3--img:hover {
   transition: 1s ease;
   transform: scale(1.1);
 }
-.vegitable--ul--divimg1 {
+.vegetable--ul--divimg1 {
   background-color: red;
 }
-.vegitable--ul--divimg2 {
+.vegetable--ul--divimg2 {
   background-color: rgb(30, 247, 244);
 }
-.vegitable--ul--divimg3 {
+.vegetable--ul--divimg3 {
   background-color: rgb(235, 171, 42);
 }
-.vegitable--ul img {
+.vegetable--ul img {
   height: 170px;
 }
-.vegitable--ul--content {
+.vegetable--ul--content {
   background-color: white;
 }
-.vegitable--ul--counter {
+.vegetable--ul--counter {
   display: flex;
   justify-content: center;
   gap: 10px;
   font-size: 20px;
   margin-top: 10px;
 }
-.vegitable--ul--counter span {
+.vegetable--ul--counter span {
   padding: 10px 20px;
   border: 2px solid black;
   background-color: white;
 }
-.vegitable--ul--addCart-nasu,
-.vegitable--ul--addCart-tomato,
-.vegitable--ul--addCart-cucumber {
+.vegetable--ul--addCart-nasu,
+.vegetable--ul--addCart-tomato,
+.vegetable--ul--addCart-cucumber {
   text-align: center;
   padding: 10px 20px;
   margin-top: 10px;
   background-color: rgb(219, 238, 46);
   cursor: pointer;
 }
-.vegitable--ul--counter-nasu--minus,
-.vegitable--ul--counter-nasu--plus,
-.vegitable--ul--counter-tomato--minus,
-.vegitable--ul--counter-tomato--plus,
-.vegitable--ul--counter-cucumber--minus,
-.vegitable--ul--counter-cucumber--plus {
+.vegetable--ul--counter-nasu--minus,
+.vegetable--ul--counter-nasu--plus,
+.vegetable--ul--counter-tomato--minus,
+.vegetable--ul--counter-tomato--plus,
+.vegetable--ul--counter-cucumber--minus,
+.vegetable--ul--counter-cucumber--plus {
   cursor: pointer;
 }
 
@@ -400,16 +400,16 @@ h3 {
   .farmer--ul--content {
     width: 100%;
   }
-  .vegitable--ul {
+  .vegetable--ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
-  .vegitable--ul li {
+  .vegetable--ul li {
     width: 100%;
     height: auto;
   }
-  .vegitable--ul img {
+  .vegetable--ul img {
     height: auto;
   }
 
