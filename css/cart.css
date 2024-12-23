@@ -10,12 +10,10 @@
   max-width: 770px;
   margin: 0 auto;
   font-family: 'Courier New', Courier, monospace;
-  /* border: 1px solid red; */
 }
 
 .div-nasu, .div-tomato, .div-cucumber {
   height: 60px;
-  /* vertical-align: middle; */
 }
 .nasu-img, .tomato-img, .cucumber-img {
   height: 100px;
@@ -31,7 +29,6 @@ label {
   width: 770px;
   border: 1px dotted black;
   margin-top: 10px;
-  /* margin-bottom: 10px; */
 }
 .total-div::before {
   display: block;
@@ -42,17 +39,12 @@ label {
 }
 .total-div {
   height: 70px;
-  /* margin-top: 30px; */
-  /* margin-bottom: 50px; */
-  /* vertical-align: bottom; */
 }
 input {
-  /* text-align: right; */
   display: inline-block;
   margin-right: 0;
   height: 30px;
   border-radius: 5px;
-  /* border: 1px solid red; */
 }
 
 .purchase {
@@ -62,7 +54,6 @@ input {
   font-size: 30px;
   border-radius: 20px;
   margin-top: 50px;
-  /* border: 1px solid red; */
 }
 
 #fixed {
